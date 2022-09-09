@@ -17,6 +17,5 @@ public class DownsizeTester
 
         System.out.println(employeeNames);
         System.out.println("Expected: [Dick, Romeo]");
-        System.out.println("Expected: [Dick, Romeo, Juliet]");
     }
 }
