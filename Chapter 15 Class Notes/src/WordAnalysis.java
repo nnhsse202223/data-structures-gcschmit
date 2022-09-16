@@ -60,7 +60,7 @@ public class WordAnalysis
          */
         Set<String> words = new HashSet<>();
 
-        Scanner in = new Scanner(new File(filename));
+        Scanner in = new Scanner(new File(filename), "UTF-8");
 
         // use any character other than a-z or A-Z as delimiters
         in.useDelimiter("[^a-zA-Z]+");      // [^abc]+
